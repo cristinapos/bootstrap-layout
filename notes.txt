@@ -1,0 +1,9 @@
+Implementation details:
+- use bootstrap wherever possible
+- media queries in combination with bootstrap will and should be needed
+
+Colors:
+- golden: #b6a16c
+- background: #111015
+- lighter grey: #3d3d3d
+- send button: #c09c78
