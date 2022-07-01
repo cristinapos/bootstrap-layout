@@ -1,6 +1,6 @@
 const cursor = document.querySelector('.ball-one');
 
-const col = document.querySelectorAll('.col-3');
+const col = document.querySelectorAll('.col-carousel');
 
 col.forEach((el) => el.addEventListener('mousemove', function(e) {
     cursor.style.display = "flex";

@@ -96,21 +96,21 @@ body {
     width: 100%;
 }
 
-.col-3 {
+.col-carousel {
     background-color: rgba(17, 16, 21, 0.4);
 }
 
-.col-3:hover {
+.col-carousel:hover {
     background-color: unset;
     cursor: none;
 }
 
-.col-3 p {
+.col-carousel p {
     color: #b6a16c;
     font-size: 1.8em;
 }
 
-.col-3 h5 {
+.col-carousel h5 {
     color: white;
 }
 
@@ -184,6 +184,10 @@ body {
 }
 
 /*Section-three*/
+form {
+    margin-top: 1rem;
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -321,36 +325,30 @@ form button img {
         padding: 3em 2em;
     }
 
-    .projects-md .row >:first-child {
-        background: url("../assets/projects/1.jpg");
-    }
-    
-    .projects-md .row >:nth-child(2) {
-        background: url("../assets/projects/2.jpg");
+    .carousel-item {
+        height: unset;
     }
 
-    .projects-md .row >:nth-child(3) {
-        background: url("../assets/projects/3.jpg");
+    .carousel-item img{
+        height: unset;
     }
 
-    .projects-md .row >:last-child {
-        background: url("../assets/projects/4.jpg");
-    } 
-
-    .projects-md .row .col-12 {
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-        height: 23em;
+    .col-carousel  {
+        height: 25em;
+        background-color: rgba(17, 16, 21, 0.6);
     }
 
-    .overlay-col {
-        background-color: rgba(17, 16, 21, 0.4);
-        height: 100%;
-    }
-
-    .overlay-col h5 {
-        color: white;
+    .carousel-caption {
+        align-items: center !important;
+        justify-content: center !important;
+        position: absolute;
+        right: 15%;
+        bottom: unset;
+        left: 15%;
+        padding-top: 12rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
     }
 
     .section-three {
@@ -365,6 +363,12 @@ form button img {
     .title-map h2 {
         border-left: unset;
         border-right: unset;
+        padding-bottom: 0 !important;
+        margin-top: 2em;
+    }
+
+    form {
+        margin-top: 0;
     }
 
     form button {
