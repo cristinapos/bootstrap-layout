@@ -13,5 +13,3 @@ col.forEach((el) => el.addEventListener('mouseleave', function(e) {
     cursor.style.left = 0 + "px";
     cursor.style.display = "none";
 }))
-
-
